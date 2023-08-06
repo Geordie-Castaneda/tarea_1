@@ -9,18 +9,25 @@
 <body>
     <div class="cont_encabezado">
         <div class="conte_elementos">
-            <img src="imgs/profile_photo.png" alt="esta es la foto de perfil" class="photo_p">
-            <br><h1 style="background-color: gray;">Jordy José Orantes Castañeda</h1>
-            <br>
-            <ul class="ul_encabezado">
-                <li class="li_encabezado"><a href="/">Inicio</a></li>
-                <li class="li_encabezado"><a href="/">Php</a></li>
-                <li class="li_encabezado"><a href="/">.NET</a></li>
-                <li class="li_encabezado"><a href="/">Java</a></li>
-            </ul>
+            <div style="padding-top: 10px;padding-bottom: 0px">
+                <img src="imgs/profile_photo.png" alt="esta es la foto de perfil" class="photo_p">
+            </div>
+            <div style="padding-top: 5px;padding-bottom: 0px;">
+                <h1 style=" margin: 0px;">Jordy José Orantes Castañeda</h1>
+            </div>
+            <div style="padding-top: 5px">
+                <ul class="ul_encabezado">
+                    <li class="li_encabezado"><a href="/">Inicio</a></li>
+                    <li class="li_encabezado"><a href="/">Php</a></li>
+                    <li class="li_encabezado"><a href="/">.NET</a></li>
+                    <li class="li_encabezado"><a href="/">Java</a></li>
+                </ul>
+            </div>
+            
+            
         </div>
     </div>
-    <br><br>
+    <br>
     <div class="cont_menu">
         <br>
         <div class="cont_menu_1">
@@ -47,5 +54,58 @@
         
 
     </div>
+    <br>
+    <div class="cont_tabla">
+        <table>
+            <tr>
+                <td colspan="2" style="text-align: center;">Programación Web</td>
+            </tr>
+            <tr>
+                <td>ASP</td>
+                <td>JSP</td>
+            </tr>
+            <tr>
+                <td>PHP</td>
+                <td>Ruby</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Go</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div class="cont_form">
+        <form id="formulario">
+            <input type="text" id="nombres" required placeholder="Ingrese nombres">
+            
+            <input type="text" id="apellidos" required placeholder="Ingrese apellidos">
+        
+            <input type="tel" id="telefono" required placeholder="Ingrese número telefonico">
+            
+            <input type="email" id="correo" required placeholder="Ingrese correo electronico">
+
+            <input type="date" id="fecha" required >
+
+            <input type="text" id="mensaje" required placeholder="Ingrese un mensaje">
+
+            <button type="button" onclick="enviarFormulario()">Enviar</button>
+        </form>
+        <script src="script.js"></script>
+    </div>
+
+    <br>
+    <div class="cont_social">
+        <h3 style="color: mediumblue;">Redes sociales</h3>
+        <div style="align-items: center; float: right;">
+            <img src="imgs/facebook.avif" alt="Logo facebook" style="width: 80px; margin-top: 20px; margin-right: 20px;"/>
+            <img src="imgs/twitter.webp" alt="Logo twitter" style="width: 80px; margin-top: 20px;"/>
+        </div>
+        
+    </div>
+    
+    <br>
+
+    <button type="button">Aprende a programar fácil y rapido </button>
 </body>
 </html>

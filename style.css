@@ -32,6 +32,7 @@ body{
 .ul_encabezado{
     list-style:none;
     text-decoration: none;
+    margin: 0px;
 }
 
 .li_encabezado{
@@ -54,3 +55,75 @@ body{
     padding-bottom: 20px;
     /* padding-left: 50px; */
 }
+
+.cont_tabla{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    border-collapse: collapse; /* Combina los bordes de celdas adyacentes */
+    width: 90%; /* Ancho de la tabla (puedes ajustarlo según tus necesidades) */
+    border: 1px solid black; /* Borde de la tabla */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+th, td, thead{
+    border: 1px solid black; /* Borde de las celdas y encabezados */
+    /* padding: 8px; Espacio interno para los contenidos de las celdas */
+}
+
+.cont_form{
+    width: 100%;
+    background-color: white;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  label, input, button {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .cont_social{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+  }
